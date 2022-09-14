@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "G8W8pm0RWOq7YKuX+H/8Om1pahrRzQ1YpNk2pnOy+EVXyb+yUECLFaIlbuPG5B+hBvjG9ZR+PEJXJN5quQgkMw==",
+  "success": true,
+  "projectFilePath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
