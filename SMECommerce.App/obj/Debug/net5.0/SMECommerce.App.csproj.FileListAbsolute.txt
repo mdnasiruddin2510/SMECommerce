@@ -337,3 +337,4 @@ G:\Asp.net Core Practice\SMECommerce\SMECommerce.App\obj\Debug\net5.0\refint\SME
 G:\Asp.net Core Practice\SMECommerce\SMECommerce.App\obj\Debug\net5.0\SMECommerce.App.genruntimeconfig.cache
 G:\Asp.net Core Practice\SMECommerce\SMECommerce.App\obj\Debug\net5.0\ref\SMECommerce.App.dll
 G:\Asp.net Core Practice\SMECommerce\SMECommerce.App\obj\Debug\net5.0\Razor\Views\Security\Login.cshtml.g.cs
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.App\obj\Debug\net5.0\Razor\Views\Home\Home.cshtml.g.cs
