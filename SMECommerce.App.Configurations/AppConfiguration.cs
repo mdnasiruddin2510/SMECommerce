@@ -15,7 +15,7 @@ namespace SMECommerce.App.Configurations
     {
         public static void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<SMECommerceDbContext>(c => c.UseSqlServer(@"Server=(local);Database=SMECommerceDB; Integrated Security=true"));
+            services.AddDbContext<SMECommerceDbContext>(c => c.UseSqlServer(@"Server=TEAMOS-PC;Database=SMECommerceDB; Integrated Security=true"));
             services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddTransient<ICategoryService, CategoryService>();
             services.AddTransient<IProductService, ProductService>();

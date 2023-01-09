@@ -11,3 +11,16 @@ E:\aspnet-batch8\ApplicationDevelopment\SMECommerce\SMECommerce.Repositories.Abs
 E:\aspnet-batch8\ApplicationDevelopment\SMECommerce\SMECommerce.Repositories.Abstractions\obj\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.csproj.CopyComplete
 E:\aspnet-batch8\ApplicationDevelopment\SMECommerce\SMECommerce.Repositories.Abstractions\obj\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.dll
 E:\aspnet-batch8\ApplicationDevelopment\SMECommerce\SMECommerce.Repositories.Abstractions\obj\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.pdb
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\bin\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.deps.json
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\bin\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.dll
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\bin\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.pdb
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\bin\Debug\netstandard2.1\SMECommerce.Models.dll
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\bin\Debug\netstandard2.1\SMECommerce.Models.pdb
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\obj\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.csproj.AssemblyReference.cache
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\obj\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\obj\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.AssemblyInfoInputs.cache
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\obj\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.AssemblyInfo.cs
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\obj\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.csproj.CoreCompileInputs.cache
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\obj\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.csproj.CopyComplete
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\obj\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.dll
+G:\Asp.net Core Practice\SMECommerce\SMECommerce.Repositories.Abstractions\obj\Debug\netstandard2.1\SMECommerce.Repositories.Abstractions.pdb

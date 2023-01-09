@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SMECommerce.Databases.DbContexts;
 
-namespace EFcoreExamples.Migrations
+namespace SMECommerce.Databases.Migrations
 {
     [DbContext(typeof(SMECommerceDbContext))]
     partial class SMECommerceDbContextModelSnapshot : ModelSnapshot
@@ -34,7 +34,7 @@ namespace EFcoreExamples.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Brand");
+                    b.ToTable("Brands");
                 });
 
             modelBuilder.Entity("SMECommerce.Models.EntityModels.Category", b =>

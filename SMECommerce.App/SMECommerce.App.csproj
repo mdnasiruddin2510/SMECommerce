@@ -18,4 +18,8 @@
     <ProjectReference Include="..\SMECommerce.App.Configurations\SMECommerce.App.Configurations.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Security\" />
+  </ItemGroup>
+
 </Project>

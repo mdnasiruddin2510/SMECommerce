@@ -11,3 +11,16 @@ E:\aspnet-batch8\ApplicationDevelopment\SMECommerce\SMECommerc.Databases\obj\Deb
 E:\aspnet-batch8\ApplicationDevelopment\SMECommerce\SMECommerc.Databases\obj\Debug\netstandard2.1\SMECommerce.Databases.dll
 E:\aspnet-batch8\ApplicationDevelopment\SMECommerce\SMECommerc.Databases\obj\Debug\netstandard2.1\SMECommerce.Databases.pdb
 E:\aspnet-batch8\ApplicationDevelopment\SMECommerce\SMECommerc.Databases\obj\Debug\netstandard2.1\SMECommerce.Databases.csproj.CopyComplete
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\bin\Debug\netstandard2.1\SMECommerce.Databases.deps.json
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\bin\Debug\netstandard2.1\SMECommerce.Databases.dll
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\bin\Debug\netstandard2.1\SMECommerce.Databases.pdb
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\bin\Debug\netstandard2.1\SMECommerce.Models.dll
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\bin\Debug\netstandard2.1\SMECommerce.Models.pdb
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\obj\Debug\netstandard2.1\SMECommerce.Databases.csproj.AssemblyReference.cache
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\obj\Debug\netstandard2.1\SMECommerce.Databases.GeneratedMSBuildEditorConfig.editorconfig
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\obj\Debug\netstandard2.1\SMECommerce.Databases.AssemblyInfoInputs.cache
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\obj\Debug\netstandard2.1\SMECommerce.Databases.AssemblyInfo.cs
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\obj\Debug\netstandard2.1\SMECommerce.Databases.csproj.CoreCompileInputs.cache
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\obj\Debug\netstandard2.1\SMECommerce.Databases.csproj.CopyComplete
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\obj\Debug\netstandard2.1\SMECommerce.Databases.dll
+G:\Asp.net Core Practice\SMECommerce\SMECommerc.Databases\obj\Debug\netstandard2.1\SMECommerce.Databases.pdb

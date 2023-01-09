@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\PencilBox Training\\SMECommerce\\SMECommerce.App\\SMECommerce.App.csproj": {}
+    "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.App\\SMECommerce.App.csproj": {}
   },
   "projects": {
-    "F:\\PencilBox Training\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj": {
+    "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PencilBox Training\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj",
+        "projectUniqueName": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj",
         "projectName": "SMECommerce.Databases",
-        "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj",
+        "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerc.Databases\\obj\\",
+        "outputPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerc.Databases\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj"
               }
             }
           }
@@ -71,7 +76,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -80,21 +86,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\PencilBox Training\\SMECommerce\\SMECommerce.App.Configurations\\SMECommerce.App.Configurations.csproj": {
+    "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.App.Configurations\\SMECommerce.App.Configurations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.App.Configurations\\SMECommerce.App.Configurations.csproj",
+        "projectUniqueName": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.App.Configurations\\SMECommerce.App.Configurations.csproj",
         "projectName": "SMECommerce.App.Configurations",
-        "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.App.Configurations\\SMECommerce.App.Configurations.csproj",
+        "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.App.Configurations\\SMECommerce.App.Configurations.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.App.Configurations\\obj\\",
+        "outputPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.App.Configurations\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,26 +112,27 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj"
               },
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj"
               },
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj"
               },
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj"
               },
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services\\SMECommerce.Services.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services\\SMECommerce.Services.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services\\SMECommerce.Services.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services\\SMECommerce.Services.csproj"
               }
             }
           }
@@ -151,7 +162,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -160,21 +172,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\PencilBox Training\\SMECommerce\\SMECommerce.App\\SMECommerce.App.csproj": {
+    "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.App\\SMECommerce.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.App\\SMECommerce.App.csproj",
+        "projectUniqueName": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.App\\SMECommerce.App.csproj",
         "projectName": "SMECommerce.App",
-        "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.App\\SMECommerce.App.csproj",
+        "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.App\\SMECommerce.App.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.App\\obj\\",
+        "outputPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.App\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -182,14 +198,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerce.App.Configurations\\SMECommerce.App.Configurations.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.App.Configurations\\SMECommerce.App.Configurations.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.App.Configurations\\SMECommerce.App.Configurations.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.App.Configurations\\SMECommerce.App.Configurations.csproj"
               }
             }
           }
@@ -225,28 +242,11 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -255,21 +255,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj": {
+    "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj",
+        "projectUniqueName": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj",
         "projectName": "SMECommerce.Models",
-        "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj",
+        "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Models\\obj\\",
+        "outputPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -277,6 +281,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -306,7 +311,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -315,21 +321,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj": {
+    "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj",
+        "projectUniqueName": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj",
         "projectName": "SMECommerce.Repositories.Abstractions",
-        "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj",
+        "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories.Abstractions\\obj\\",
+        "outputPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -337,14 +347,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj"
               }
             }
           }
@@ -364,7 +375,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -373,21 +385,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj": {
+    "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj",
+        "projectUniqueName": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj",
         "projectName": "SMECommerce.Repositories",
-        "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj",
+        "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories\\obj\\",
+        "outputPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -395,17 +411,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerc.Databases\\SMECommerce.Databases.csproj"
               },
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj"
               }
             }
           }
@@ -431,7 +448,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -440,21 +458,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj": {
+    "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj",
+        "projectUniqueName": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj",
         "projectName": "SMECommerce.Services.Abstractions",
-        "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj",
+        "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services.Abstractions\\obj\\",
+        "outputPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -462,14 +484,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj"
               }
             }
           }
@@ -489,7 +512,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -498,21 +522,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services\\SMECommerce.Services.csproj": {
+    "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services\\SMECommerce.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services\\SMECommerce.Services.csproj",
+        "projectUniqueName": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services\\SMECommerce.Services.csproj",
         "projectName": "SMECommerce.Services",
-        "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services\\SMECommerce.Services.csproj",
+        "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services\\SMECommerce.Services.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services\\obj\\",
+        "outputPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -520,20 +548,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Models\\SMECommerce.Models.csproj"
               },
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj"
               },
-              "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj": {
-                "projectPath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj"
+              "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj": {
+                "projectPath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Services.Abstractions\\SMECommerce.Services.Abstractions.csproj"
               }
             }
           }
@@ -553,7 +582,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -562,7 +592,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

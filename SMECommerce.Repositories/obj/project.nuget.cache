@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PtQuRp/7r1NFYhqgE8tEijqnaZ3KSCqghapq7TlER+/z3WX5LDYS6kvS9U9E1JKDehD+2y58cLm8CRTL1uvFRA==",
+  "dgSpecHash": "LXL3KGAuLmYk+Z9KxppyKFrEpytR12OlTPDeDmy/UaKx3DAEH/4ZNnJ6VDB3YM8uo4ytR878pXFmARzoL4em0w==",
   "success": true,
-  "projectFilePath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj",
+  "projectFilePath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories\\SMECommerce.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

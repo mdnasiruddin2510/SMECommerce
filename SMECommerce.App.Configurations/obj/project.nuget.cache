@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dGhCxgqz8rsvZJBm1emA55KoFRDQRdDg7t2lC/jnkXjngKfmzLFoid8tBJA0YAnYeVRIATLLXCXAGM9AeUG9jg==",
+  "dgSpecHash": "2qboIq9l9hA+zqHOjtW6P9NtskQOZ4N/Il81sVlZ51drkwAJL5hS/XgRfAGa4fIUidBiv7HybITgatnC+0l5lw==",
   "success": true,
-  "projectFilePath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.App.Configurations\\SMECommerce.App.Configurations.csproj",
+  "projectFilePath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.App.Configurations\\SMECommerce.App.Configurations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

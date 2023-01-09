@@ -41,15 +41,14 @@ namespace SMECommerce.App.Controllers
            
             if (model.Name != null)
             {
-                //var category = new Category()
-                //{
-                //    Name = model.Name,
-                //    Description = model.Description,
-                //    Code = model.Code,
-                //    Reference = model.Reference
-                //};
+                var category = new Category()
+                {
+                    Name = model.Name,
+                    Description = model.Description,
+                    Code = model.Code
+                };
 
-                var brand = _mapper.Map<Brand>(model);
+                //var brand = _mapper.Map<Brand>(model);
 
 
                 var isAdded = _categoryService.Add(category);

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G8W8pm0RWOq7YKuX+H/8Om1pahrRzQ1YpNk2pnOy+EVXyb+yUECLFaIlbuPG5B+hBvjG9ZR+PEJXJN5quQgkMw==",
+  "dgSpecHash": "i9qn4mlg/416n5jw6gz8broMZLcfC6vrq5L8kjXqygodafHqn2DkU5Cu0Rh7z9KZImzl3iCdiW5ruuLP3aHpkg==",
   "success": true,
-  "projectFilePath": "F:\\PencilBox Training\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj",
+  "projectFilePath": "G:\\Asp.net Core Practice\\SMECommerce\\SMECommerce.Repositories.Abstractions\\SMECommerce.Repositories.Abstractions.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
