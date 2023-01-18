@@ -25,20 +25,61 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-lg-9">
         <div class="card">
             <div class="card-header">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h4 class="card-title">Category List</h4>
+                    </div>
+                    @*<div class="col-auto">
+                        <button id="btnPrint" onclick="printAssetDiv('print_div_id')" style="display:none;" class="btn btn-success btn-sm"><i class="fas fa-print"></i></button>
+                        <button id="btnExport" onclick="exportThisDiv()" style="margin-right:3px; float:right; display:none;" class="btn btn-success btn-sm">Export &nbsp;<i class="fas fa-file-excel"></i></button>
+                    </div>*@
+                </div>
             </div>
-            <div class="card-body" id="2">
-                <div class="col-sm-12">
-                    <table id="PreBookingList" class="table table-hover table-bordered">
-                    </table>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-7" style="text-align:center">
+                        <span id="report_header_text"></span>
+                        <br />
+                    </div>
+                    <div class="col-md-1" style="text-align: right">
+                        <br />
+                    </div>
+                </div>
+                <div id="print_div_id">
+                   @* <div class="row">
+                        <div class="col-md-4">
+                            <p id="print_report_date_id" style="margin: 0px; padding: 0px;"></p>
+                        </div>
+                        <div class="col-md-4" style="text-align: center; margin: 0px; padding: 0px;" id="print_report_header">
+                        </div>
+                        <div class="col-md-4" style="text-align: right; margin: 0px; padding: 0px;">
+                            <p id="print_report_time_id" style="margin: 0px; padding: 0px;"></p>
+                        </div>
+
+                    </div>*@
+                    <br />
+                    <div class="table-responsive">
+                        <table class="table table-bordered mb-0 table-centered table-hover" id="tbl">
+                            <thead>
+                                <tr>
+                                    <th>SL</th>
+                                    <th>Name</th>
+                                    <th>Code</th>
+                                    <th class="text-end">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="card card-primary">
+@*<div class="card card-primary">
     <div class="card-header">
         <h3 class="card-title">Category Create</h3>
     </div>
@@ -67,18 +108,95 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
     </form>
+</div>*@
+
+<div class="modal fade" id="modalCategory" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="modalTitle">Category Create</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card-body">
+                    <form id="frmCategory">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="id" class="hidden" id="id"></label>
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter Item Name" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="code">Code</label>
+                                    <input type="text" class="form-control" id="code" name="code" placeholder="Enter Code" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="description">Description</label>
+                                    <textarea id="description" class="form-control "></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" id="btnClose" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success btn-sm" id="btnSave">Save changes</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 
-
-
 @section scripts{
+    <script type="text/javascript">
+        //$("#btnNew").click(function(){
+        //    $("#modalCategory").modal("show");
+        //});
+        $(document).on("click", "#btnNew", function () {
+            $("#modalCategory").modal("show");
+        });
+        $(document).on("click", "#btnClose", function () {
+            $("#modalCategory").modal("hide");
+        });
+        $("#btnSave").click(function () {
+            var buttonName = $(this).text();
+            if ($("#frmCategory").valid()) {
+                $("#btnSave").prop("disabled", true);
+                var url = "/category/create";
+                var category = {
+                    name: $("#modalCategory #name").val(),
+                    code: $("#modalCategory #code").val(),
+                    description: $("#modalCategory #description").val(),
+                };
+                if (buttonName == "Update changes") {
+                    url = "/category/edit";
+                    category.id = $("#id").val();
+                }
+                $.ajax({
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    url:url,
+                    dataType: 'json',
+                    data: JSON.stringify(category),
+                    type: 'post',
+                    success: function (res) {
+                        $("#btnSave").prop("disabled", false);
+                        toastr.success("Update successfully!", "Success");
+                        $("#modalCategory").modal('hide');
+                        //getAssets();
+                    },
+                    error: function (request, status, error) {
+                        $("#btnSave").prop("disabled", false);
+                    }
+                })
+            }
+        });
 
-    @*<script type="text/javascript">
-        var name = $('#name');
-        
-        name.value ="New Category";
-    </script>*@
+    </script>
 }
 
 
